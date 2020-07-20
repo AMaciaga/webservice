@@ -17,8 +17,8 @@ docker run -d -p 5000:5000 webservice
   ```
   curl -H "Content-Type: application/json" -X POST -d '{"first_num": 1,"second_num":2}' http://127.0.0.1:5000/add
   ```
-  ### Expected results
-  * GET
+### Expected results
+* GET
   ```
   Hello :)
   ```
